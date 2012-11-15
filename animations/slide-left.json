@@ -1,0 +1,18 @@
+{ "Name":"scale",
+   "recommend-on":["window-created", "destroy"],
+   "author":"Meng Zhuo",
+   "email":"mengzhuo1203@gmail.com",
+   "description": "Slide  Animation",
+   "api-version": 1,
+   "animation":{
+        "duration": 300,
+        "easy_mode": "EASE_OUT_BOUNCE",
+        "start":{
+            "scale":0.5
+        },
+        "end":{
+            "scale":1
+        },
+        "reversible":true
+   },
+}
